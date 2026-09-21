@@ -1,0 +1,31 @@
+# Sanitized seed. Copy to the private runtime; do not treat this file as live state.
+# Agents cannot create or edit objectives. Humans seed once via the CLI.
+year: 2026
+objectives:
+  - slug: relationship
+    title: Build a relationship and move toward family
+    description: >
+      Volume of real social exposure. Apps count only when they produce a
+      real proposed plan. The ask counts; the answer never does.
+    constraints:
+      - Do not optimize likes or matches at the expense of dates that happen.
+      - Research and profile work cannot mark the dating initiative advancing.
+  - slug: physical
+    title: Build physical confidence and health
+    description: Training, group sport, outdoor physical life.
+    constraints: []
+  - slug: money-property
+    title: "Personal finances and property: track the money, grow it, buy a place"
+    description: >
+      Personal money and a place to live. Career execution is out of scope.
+    constraints:
+      - fin-ops is the source of truth for financial evidence. Reference it.
+  - slug: discipline
+    title: Build discipline, focus, and discomfort tolerance
+    description: First moves, phone discipline, discomfort instead of overthinking.
+    constraints:
+      - Do not grow the habit list from this system.
+  - slug: social-volunteer
+    title: Live a more social, engaged, outdoor life
+    description: Events, volunteering, outdoors. Not work social.
+    constraints: []

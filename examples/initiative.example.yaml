@@ -1,0 +1,18 @@
+# Sanitized illustration. Not live state. Not imported by the CLI.
+objective: relationship
+title: Improve online dating
+moves:
+  - kind: action
+    title: Deploy baseline Hinge profile
+    # Not an experiment. Nothing to compare against until this is live.
+  - kind: action
+    title: Observe baseline for N days
+  - kind: experiment
+    title: Test one profile change against baseline
+    hypothesis: Variant changes quality conversations versus hinge-v0.
+    # Closed only after frames + deploy + observe + evidence + decide.
+  - kind: research
+    title: Choose baseline photos
+    question: Which 6 photos should form Hinge baseline v1?
+    output: ranked_selection
+    done_when: baseline photo set is chosen
